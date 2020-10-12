@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  jupyter-server:
+    build: .
+    container_name: jupyter-tf
+    volumes:
+            - ./notebooks/:/home
+    ports:
+      - "8888:8888"
