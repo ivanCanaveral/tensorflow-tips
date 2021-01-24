@@ -1,0 +1,39 @@
+# Serving
+
+
+```
+model_config_list: {
+  config: {
+    name:  "conv_model",
+    base_path:  "/models/conv_model",
+    model_platform: "tensorflow",
+    model_version_policy: {
+        specific {
+          versions: 1
+          versions: 2
+        }
+    },
+    version_labels {
+      key: 'stable'
+      value: 1
+    }
+    version_labels {
+      key: 'latest'
+      value: 2
+    }
+  },
+  config: {
+    name:  "flat_model",
+    base_path:  "/models/flat_model",
+    model_platform: "tensorflow",
+    model_version_policy: {
+      all: {}
+    }
+  }
+}
+```
+
+#### Routes
+
+* `/v1/models/<model name>/versions/<version number>`
+* `/v1/models/<model name>/labels/<version label>`
