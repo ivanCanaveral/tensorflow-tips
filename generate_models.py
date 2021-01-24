@@ -133,7 +133,6 @@ names = ['conv_model', 'conv_model', 'flat_model']
 versions = [1, 2, 1]
 
 for model, name, version in zip(models, names, versions):
-    version = 1
     export_path = os.path.join(MODEL_DIR, name, str(version))
     print('export_path = {}\n'.format(export_path))
 

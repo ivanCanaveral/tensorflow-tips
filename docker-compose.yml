@@ -2,9 +2,17 @@ version: '3'
 
 services:
   jupyter-server:
-    build: .
-    container_name: jupyter-tf
+    build: notebooks
+    container_name: tf-jupyter
     volumes:
-            - ./notebooks/:/home
+      - ./notebooks/:/home
     ports:
       - "8888:8888"
+
+  model-server:
+    build: serving
+    container_name: tf-serving
+    volumes:
+      - ./models/:/models
+    ports:
+      - "8501:8501"
