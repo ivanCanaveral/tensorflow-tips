@@ -12,8 +12,7 @@
   <a href="#contents">Contents</a> •
   <a href="#architecture">Architecture</a> •
   <a href="#how-to-run-it">How to run it</a> •
-  <a href="#examples">Examples</a> •
-  <a href="#licence">Licence</a>
+  <a href="#examples">Examples</a>
 </p>
 
 ![Python Badge](https://img.shields.io/badge/-python-3776AB?style=flat-square&logo=python&logoColor=white)
