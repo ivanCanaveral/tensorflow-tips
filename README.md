@@ -29,6 +29,10 @@
 
 ## Contents
 
+* <a href="https://github.com/ivanCanaveral/tensorflow-tips/blob/main/notebooks/00%20-%20Graphs%2C%20functions%20and%20tracing.ipynb">Graphs, functions and tracing.</a>
+* <a href="https://github.com/ivanCanaveral/tensorflow-tips/blob/main/notebooks/06%20-%20Gradients.ipynb">Gradients and differentiation.</a>
+* <a href="https://github.com/ivanCanaveral/tensorflow-tips/tree/main/serving">Tensorflow Serving Perforce.</a>
+
 ## Architecture
 
 ## How to run it
